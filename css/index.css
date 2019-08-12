@@ -93,9 +93,7 @@ h1, h2, h3, h4, h5 {
      color: black;
 	
  }
- a:hover {
-     color: orange;
- }
+
  a:visited {
      color: black;
  }
