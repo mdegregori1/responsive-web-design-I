@@ -306,6 +306,31 @@ h1, h2, h3, h4, h5 {
 
  }
 
- /*
+ /*Media for Tablet */
+ @media screen and (max-width: 800px) {
+    body {
+      background-color: green;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navlinks {
+        width: 60%;
+        display: flex;
+        justify-content: center;
 
-
+    }
+    nav a{
+        text-decoration: none;
+        letter-spacing: 3px;
+        color: black;
+  }
+  
+  /* Media for Phone */
+  @media screen and (max-width: 500px) {
+    body {
+      background-color:blue;
+    }
+  }
+  
